@@ -277,7 +277,7 @@ background: rgba(255, 255, 255, 1);
 margin-top: 32px;
 }
 
-.sec5{
+.sec6 {
     margin: 80px auto;
     width: 1280px;
     margin-left: auto;
@@ -297,10 +297,24 @@ border-radius: 16px;
 background: rgba(255, 255, 255, 1);
 padding: 40px;
 }
+.amount .title2:hover{
+    background: rgba(198, 228, 214, 1);
+}
 .donate{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
 }
 
 #taka{
@@ -308,7 +322,7 @@ padding: 40px;
     height: 64px;
     box-sizing: border-box;
     background: rgba(255, 255, 255, 1);
-    border: 1px solid rgba(0, 0, 0, 0.15);
+    border: none;
     text-align: center;
 }
 
