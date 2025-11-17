@@ -235,6 +235,38 @@ header{
 .sec4 .title2{
     margin-bottom: 24px;
 }
+.opinion{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 72px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(198, 228, 214, 1);
+}
+.data{
+    width: 1280px;
+    height: 409px;
+    border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+table{
+    width: 1200px;
+}
+table, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 24px;
+}
 
 
 
@@ -283,6 +315,9 @@ margin-top: 32px;
     margin-left: auto;
     margin-right: auto;
     }
+.sec6 .title2{
+    margin-bottom: 24px;
+}
 
 .amount{
     display: flex;
@@ -299,6 +334,7 @@ padding: 40px;
 }
 .amount .title2:hover{
     background: rgba(198, 228, 214, 1);
+    color: rgb(48, 133, 93);
 }
 .donate{
     display: flex;
@@ -324,5 +360,74 @@ padding: 40px;
     background: rgba(255, 255, 255, 1);
     border: none;
     text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sec7{
+    margin: 80px auto;
+    width: 1280px;
+    height: 395px;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 80px 100px; */
+    border-radius: 24px;
+    background: rgba(198, 228, 214, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.text-part{
+    margin-top: 80px;
+    margin-bottom: 24px;
+
+}
+.text-part .des1 {
+    margin-top: 16px;
+    width: 622px;
+    text-align: center;
+}
+.search{
+    width: 600px;
+    height: 55px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgba(255, 255, 255, 1);
+    color: rgba(14, 14, 14, 0.3);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-left: 40px;
+    border: none;
+    padding-right: 0;
+}
+.inp-btn .btn-primary{
+    border-radius: 0px 8px 8px 0px;
+    background: rgba(0, 106, 80, 1);
+    height: 55px;
+    margin: 0;
+}
+.inp-btn{
+    margin-bottom: 25px;
+}
+
+/* footer */
+.contact{
+    text-align: center;
+    
+}
+.contact .title1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.social-media img{
+    margin-right: 15px;
+    margin-bottom: 50px;
 }
 
