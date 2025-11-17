@@ -167,3 +167,48 @@ header{
     width: 64px;
     height: 64px;
 }
+
+.sec3{
+    margin: 80px auto;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec3 .title2{
+    margin-bottom: 24px;
+}
+.vision{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card2{
+    width: 410px;
+    height: 325px;
+    /* padding: 32px; */
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    margin-top: 32px;
+}
+.card2 img{
+    width: 64px;
+    height: 64px;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.card2 .title3{
+    margin-top: 24px;
+    margin-bottom: 12px;
+    margin-left: 32px;
+}
+.card2 .des1{
+    margin-left: 32px;
+    margin-right: 32px;
+
+}
+.card2 .btn-primary{
+    margin-top: 24px;
+    background: rgba(84, 144, 245, 1);
+    margin-left: 32px;
+
+}
