@@ -4,6 +4,9 @@
 *{
     /* max-width: 1600px; */
     margin: 0;
+body {
+    background: rgba(245, 245, 245, 1);
+}
     
     
 }
@@ -210,5 +213,102 @@ header{
     margin-top: 24px;
     background: rgba(84, 144, 245, 1);
     margin-left: 32px;
+}
+.comment{
+    padding: 48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 1) url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-position-x: 24px;
+    background-position-y: 24px;
+    margin-top: 32px;
+    margin-bottom: 80px;
+}
+.sec4{
+    margin: 80px auto;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec4 .title2{
+    margin-bottom: 24px;
+}
+
+
+
+.sec5{
+    margin: 80px auto;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.sec5 .title2{
+    margin-bottom: 24px;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+background: rgba(255, 255, 255, 1);
+margin-top: 32px;
+}
+.satelite{
+    width: 408px;
+    height: 306px;
+    border-radius: 24px
+}
+.date-time{
+    display: flex;
+    gap: 12px;
+    margin: 12px 0;
 
 }
+.news2{
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    padding: 48px;
+    border-radius: 24px;
+background: rgba(255, 255, 255, 1);
+margin-top: 32px;
+}
+
+.sec5{
+    margin: 80px auto;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.amount{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+    
+}
+.amount .title2{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgba(255, 255, 255, 1);
+padding: 40px;
+}
+.donate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#taka{
+    width: 1032px;
+    height: 64px;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
